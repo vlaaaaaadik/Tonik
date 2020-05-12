@@ -1,0 +1,40 @@
+﻿<Window x:Class="audio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:audio"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Read Wave" HorizontalAlignment="Left" Margin="594,10,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_2"/>
+        <Button Content="Open" HorizontalAlignment="Left" Margin="496,10,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click"/>
+        <TextBox Name="fileLocation" HorizontalAlignment="Left" Height="23" Margin="128,10,0,0"
+                 IsReadOnly="True" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
+        <Image Margin="231,24,176,10" Source="pn.png" Stretch="Fill"/>
+        <Label Name="C" Content="C" HorizontalAlignment="Left" Margin="411,60,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="G" Content="G" HorizontalAlignment="Left" Margin="481,81,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="D" Content="D" HorizontalAlignment="Left" Margin="533,134,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="A" Content="A" HorizontalAlignment="Left" Margin="548,201,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="E" Content="E" HorizontalAlignment="Left" Margin="529,270,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="B" Content="B" HorizontalAlignment="Left" Margin="481,317,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="Fs" Content="F#" HorizontalAlignment="Left" Margin="411,342,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="Cs" Content="C#" HorizontalAlignment="Left" Margin="335,317,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="Gs" Content="G#" HorizontalAlignment="Left" Margin="287,270,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="Ds" Content="D#" HorizontalAlignment="Left" Margin="265,201,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="As" Content="A#" HorizontalAlignment="Left" Margin="283,134,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="F" Content="F" HorizontalAlignment="Left" Margin="335,81,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontSize="20" FontWeight="Bold"/>
+        <Label Name="Am" Content="Am" HorizontalAlignment="Left" Margin="406,117,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" RenderTransformOrigin="0.5,0.538" Width="43" FontWeight="Bold"/>
+        <Label Name="Em" Content="Em" HorizontalAlignment="Left" Margin="449,133,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontWeight="Bold"/>
+        <Label Name="Bm" Content="Bm" HorizontalAlignment="Left" Margin="481,159,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" FontWeight="Bold"/>
+        <Label Name="Fsm" Content="F#m" HorizontalAlignment="Left" Margin="490,206,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Width="47" FontWeight="Bold"/>
+        <Label Name="Csm" Content="C#m" HorizontalAlignment="Left" Margin="477,250,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Width="47" FontWeight="Bold"/>
+        <Label Name="Gsm" Content="G#m" HorizontalAlignment="Left" Margin="449,278,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Width="47" FontWeight="Bold"/>
+        <Label Name="Dsm" Content="D#m" HorizontalAlignment="Left" Margin="406,287,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Width="47" FontWeight="Bold"/>
+        <Label Name="Asm" Content="A#m" HorizontalAlignment="Left" Margin="359,278,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Width="47" FontWeight="Bold"/>
+        <Label Name="Fm" Content="Fm" HorizontalAlignment="Left" Margin="330,247,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Width="47" FontWeight="Bold"/>
+        <Label Name="Cm" Content="Cm" HorizontalAlignment="Left" Margin="324,201,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Width="47" FontWeight="Bold"/>
+        <Label Name="Gm" Content="Gm" HorizontalAlignment="Left" Margin="335,159,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Width="47" FontWeight="Bold"/>
+        <Label Name="Dm" Content="Dm" HorizontalAlignment="Left" Margin="359,128,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Width="47" FontWeight="Bold"/>
+    </Grid>
+</Window>
